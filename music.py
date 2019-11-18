@@ -6,8 +6,8 @@ import requests as rq
 from discord import opus
 
 
-bot = commands.Bot(command_prefix='.')
-YOUTUBE_API = 'YOUR YOUTUBE API TOKEN HERE'
+bot = commands.Bot(command_prefix='*')
+YOUTUBE_API = 'AIzaSyBYK_vYUzgQ7k4W2KR1Zad_Yas1adQsMCA'
 
 
 bot.remove_command('help')
